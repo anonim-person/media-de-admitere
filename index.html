@@ -21,17 +21,30 @@
         input{
             width: 300px;
             height:25px;
+            text-align: center;
+            color:grey;
+        }
+        a{
+            text-decoration: none;
+            padding:5px;
+            background:grey;
+            color:white;
+            border-radius: 5px;
+            transition:.3s;
+        }
+        a:hover{
+            color:black;
         }
     </style>
 </head>
 <body>
     <div id="container">
     <h2>Calculator medie de admitere la liceu...</h2>
-    <input type="text" placeholder="Media in clasa a 5-a..." id="a"><br><br>
-    <input type="text" placeholder="Media in clasa a 6-a..." id="b"><br><br>
-    <input type="text" placeholder="Media in clasa a 7-a..." id="c"><br><br>
-    <input type="text" placeholder="Media in clasa a 8-a..." id="d"><br><br>
-    <input type="text" placeholder="Nota la examen la lb. romana..." id="e"><br><br>
+    <input type="text" placeholder="Media in clasa a V-a..." id="a"><br><br>
+    <input type="text" placeholder="Media in clasa a VI-a..." id="b"><br><br>
+    <input type="text" placeholder="Media in clasa a VII-a..." id="c"><br><br>
+    <input type="text" placeholder="Media in clasa a VIII-a..." id="d"><br><br>
+    <input type="text" placeholder="Nota la examen la limba romana..." id="e"><br><br>
     <input type="text" placeholder="Nota la examen la matematica..." id="f"><br><br>
     <a href="" type="button" value="Calculeaza" onclick="fun()">Calculeaza</a>
     <p>(Un exemplu de nota/medie: 8.29)</p>
